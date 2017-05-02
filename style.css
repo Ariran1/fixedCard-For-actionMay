@@ -1,0 +1,37 @@
+
+
+.mayFixedMiniBanner {
+	border: 1px solid #eee;
+	border-radius: 3px;
+	font: 400 16px/normal 'Roboto';
+	display: inline-block;
+}
+
+.mayFixedMiniBanner__clock,
+.mayFixedMiniBanner__text {
+	display: inline-block;
+	vertical-align: middle;
+}
+.mayFixedMiniBanner__text {
+	width: 202px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px 10px 10px 5px;
+}
+.mayFixedMiniBanner__clock {
+	color: #ff9333;
+}
+.mayFixedMiniBanner__clock svg {
+	width: 56px;
+	height: 60px;
+	padding: 5px;
+}
+.mayFixedMiniBanner__text h5 {
+	color: #FF9333;
+	font-weight: bold;
+}
+
+.mayFixedMiniBanner__text p {
+	font-size: .88em;
+	color: #0054a6;
+}
