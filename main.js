@@ -7,8 +7,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var mayFixedMiniBanner = function () {
 	function mayFixedMiniBanner() {
 		_classCallCheck(this, mayFixedMiniBanner);
-
+		var _this = this;
 		this.element = document.querySelector('.mayFixedMiniBanner');
+		this.element.querySelector('.mayFixedMiniBanner__close').addEventListener('click',function(){
+			_this.hide();
+		});
 	}
 
 	_createClass(mayFixedMiniBanner, [{
@@ -19,6 +22,7 @@ var mayFixedMiniBanner = function () {
 	}, {
 		key: 'hide',
 		value: function hide() {
+			console.log(this);
 			this.element.classList.remove('mayFixedMiniBanner--show');
 		}
 	}]);
