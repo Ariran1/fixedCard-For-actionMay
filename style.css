@@ -14,11 +14,12 @@
 	transition: all .25s ease;
 	background: #fff;
 	box-shadow: 0 15px 15px 0 rgba(0,0,0,0.15);
+	z-index: 30;
 }
 .mayFixedMiniBanner--show {
 	opacity: 1;
 	transform: translateY(0%);
-	bottom: 20px;
+	bottom: 60px;
 	right:20px;
 	transition: all .4s ease;
 }
