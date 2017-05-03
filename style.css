@@ -12,6 +12,8 @@
 	right:20px;
 	opacity: 0;
 	transition: all .25s ease;
+	background: #fff;
+	box-shadow: 0 15px 15px 0 rgba(0,0,0,0.15);
 }
 .mayFixedMiniBanner--show {
 	opacity: 1;
