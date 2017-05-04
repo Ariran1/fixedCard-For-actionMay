@@ -59,6 +59,7 @@
 .mayFixedMiniBanner__clock-arrow {
 	transform: rotate(45deg);
     transform-origin: 50% 80%;
+    -moz-transform-origin: 50% 55%;
     animation: arrowAnumation 5s linear infinite;
 }
 .mayFixedMiniBanner__clock {
